@@ -5,7 +5,6 @@ import java.util.Objects;
 public class Car {
     private int number;
     private String engine;
-
     private String color;
 
     public Car() {
