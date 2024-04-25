@@ -15,7 +15,7 @@ import web.service.CarServiceImpl;
 public class CarController {
     private final CarService carService;
     @Autowired
-    public CarController(@Qualifier ("carService1") CarServiceImpl carServiceImpl) {
+    public CarController(@Qualifier("carService1") CarServiceImpl carServiceImpl) {
         this.carService = carServiceImpl;
     }
     @GetMapping()
